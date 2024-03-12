@@ -18,6 +18,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
+                    sh 'Output'
                     echo 'Deploying...'
                   
                 }
